@@ -1,0 +1,134 @@
+body .container-fluid {
+    padding: 0; /* the left and right side of body was a bit empty. When i did margin:0 padding:0 for the body it didn't work, but on google developer tools I saw that container-fluid had padding right, and left. So making them 0.*/
+}
+body {
+    text-align: center;
+}
+
+/* navbar Section */
+.navbar-section {
+    color: white;
+    background-color: #F27E48;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 3% 6% 5% !important;
+}
+
+.big-heading {
+    font-family:  "Montserrat", "sans-serif";
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height:1.5;
+    margin-top: 70px;
+}
+.download-button {
+    margin: 15px 13px;
+}
+.title-image {
+    width:100%;
+}
+
+
+/* courses section */
+
+#courses {
+    padding:50px 100px 50px;
+    background-color: azure;
+}
+#courses>p { /*only for child p of courses id, not grandchild etc */
+    width:60%;
+    margin: 18px auto 24px;
+}
+.card-body p{
+    text-align: left;
+}
+
+/* how we work Section */
+#how {
+    padding:50px 70px 50px;
+    background-color: rgb(243, 243, 178);
+}
+#how img {
+    height:280px;
+    width:330px;
+}
+.row div {
+    margin-top:10px;
+}
+
+/* outcomes Section */
+
+#outcomes {
+    background-color: azure;
+
+}
+.outcome {
+    width:70%;
+    margin:20px auto;
+    background-color: rgb(236, 223, 223) ;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.big {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Noto Serif', serif;
+    margin-top: 25px;
+}
+
+#outcomes {
+    padding:50px 70px 50px;
+}
+#outcomes a{
+    border:1px solid black;
+    border-radius: 10px;
+}
+#outcomes a:hover {
+    color: white;
+    background-color: gray;
+}
+
+/* comments Section */
+
+.student-image {
+    height: 140px;
+    width: 160px;
+    border-radius: 20%;
+}
+#comments {
+    padding: 70px 70px 50px;
+    background-color: #F27E48;
+}
+#comments p {
+    width: 60%;
+    margin: 0 auto 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+em {
+    color: white;
+    text-align: center;
+    display: block;
+}
+.colored-section {
+    background-color: #F27E48;
+}
+.colored-section p {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px;
+}
+.icon {    
+    margin:10px 35px 10px;
+}
+
+#footer {
+    padding: 50px 20px 30px;
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Bootcamp Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <section class="navbar-section">
+        <div class="container-fluid">
+<!--all of element appeared when i wrote navbar-expand-lg-->
+            <nav class="navbar navbar-expand-lg navbar-light">        
+                <a class="navbar-brand" href="#">
+                    <i class="fab fa-python"> Python Bootcamp</i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#how">How We Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#outcomes">Outcomes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#comments">Comments</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>                 
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Title -->
+            <div class="row">
+                <div class="col-lg-6"> <!-- so it will fill 50% of width on screen of laptops, and bigger screens-->
+                    <h1 class="big-heading">Download the best Python bootcamp on your device, and start to study now.</h1>
+                    <button type="button" class="btn btn-lg btn-outline-danger download-button"><i class="fab fa-apple"></i> Download</button>
+                    <button type="button" class="btn btn-lg btn-light btn-outline-primary download-button"><i class="fab fa-google-play"></i> Download</button>                    
+
+                </div>
+
+                <div class="col-lg-6">
+                    <img class="title-image" src="pics/image.jpg" alt="classroom-image">
+                </div>
+
+            </div>
+        </div>            
+    </section>
+
+    <!-- Courses -->
+    <section id="courses">
+        <h2>Our Course Options</h2>
+        <p>All of our programs provide job guarantee. No matter where you live, and what nationality you are. Our proven system works all around the world.</p>
+
+        <div class="row">
+<!-- for laptops and bigger screens one row takes 33.3% of total width, for small screens it takes 50% -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Online Program</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4>400$ / mo</h4>
+                        <p>Unlimited watch time for the saved videos</p>
+                        <p>5 mins talking to the instructor per day on skype</p>
+                        <p>Unlimited limit of asking questions on the app</p>
+                        <p>6 months</p>
+                        <button class="btn btn-lg btn-outline-dark col-12">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Full Time Program</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4>1300$ / mo</h4>
+                        <p>Unlimited watch time for the saved videos</p>
+                        <p>20 mins talking to the instructor per day on skype</p>
+                        <p>Unlimited limit of asking questions on the app</p>
+                        <p>2 months</p>
+                        <button class="btn btn-lg btn-outline-secondary col-12">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Part Time Program</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4>700$ / mo</h4>
+                        <p>Unlimited watch time for the saved videos</p>
+                        <p>10 mins talking to the instructor per day on skype</p>
+                        <p>Unlimited limit of asking questions on the app</p>
+                        <p>4 months</p>
+                        <button class="btn btn-lg btn-outline-dark col-12">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How we work -->
+    <section id="how">
+        <h2>How We Work</h2>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <p>One-on-one mentorship and guidance.</p>
+                <img src="pics/coding.jpg" alt="coding-image">
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <p>Study schedules that fit with your life.</p>
+                <img src="pics/clock.jpg" alt="coding-image">
+            </div>
+            <div class="col-lg-4">
+                <p>In-person meetups, workshops.</p>
+                <img src="pics/meetup.jpg" alt="meetup-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Outcomes -->
+    <section id="outcomes">
+        <h2>Outcomes</h3>
+        <div class="outcome">
+            <!-- Tabs navs -->
+            <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="fulltime-tab" data-bs-toggle="tab" href="#fulltime" role="tab" aria-controls="fulltime" aria-selected="true">Full Time Program</a>
+                
+                </li>
+    
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="parttime-tab" data-bs-toggle="tab" href="#parttime" role="tab" aria-controls="parttime" aria-selected="false">Part Time Program</a>
+                   
+                </li>
+    
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="online-tab" data-bs-toggle="tab" href="#online" role="tab" aria-controls="online" aria-selected="false">Online Program</a>
+                     
+                </li>
+            </ul>
+
+            <!-- Tabs Content-->
+            <div class="tab-content" id="myTab-content">
+                <div
+                  class="tab-pane fade show active"
+                  id="fulltime"
+                  role="tabpanel"
+                  aria-labelledby="fulltime-tab"
+                >
+                    <p class="big">$70,000</p>
+                    <p class="small">Median pay rate graduates reported earning.</p>
+                    <p class="big">80%</p>
+                    <p class="small">Employed in-field within 90 days of graduation.</p>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="parttime"
+                  role="tabpanel"
+                  aria-labelledby="parttime-tab"
+                >
+                    <p class="big">$60,000</p>
+                    <p class="small">Median pay rate graduates reported earning.</p>
+                    <p class="big">75%</p>
+                    <p class="small">Employed in-field within 110 days of graduation.</p>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="online"
+                  role="tabpanel"
+                  aria-labelledby="online-tab"
+                >
+                    <p class="big">$40,000</p>
+                    <p class="small">Median pay rate graduates reported earning.</p>
+                    <p class="big">65%</p>
+                    <p class="small">Employed in-field within 150 days of graduation.</p>  
+                </div> 
+            </div>   
+        </div>     
+    </section>
+
+    <!-- Comments -->
+    <section id="comments">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <p>I took the fulltime program course. It was amazing. Up to date curriculum, and the best instructors in their field</p>
+                    <img src="pics/student1.jpg" class="student-image" alt="student-photo">
+                    <em>Selena, Miami</em>
+                </div>
+                <div class="carousel-item">
+                    <p>I took the part time program course, and I got full stack python developer job only in 20 days within graduation.</p>
+                    <img src="pics/student2.jpg" class="student-image" alt="student-photo">
+                    <em>Anna, Moscow</em>
+                </div>
+                <div class="carousel-item">
+                    <p>This course made me job ready. Don't waste time with other time wasting courses. This is what you have been looking for!</p>
+                    <img src="pics/student3.jpg" class="student-image" alt="student-photo">
+                    <em>Taylor, Paris</em>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Press -->
+    <section class="colored-section">
+        <p>Our graduated students found a job at big companies.</p>
+        <i class="fab fa-linkedin fa-5x icon"></i>
+        <i class="fab fa-facebook-square fa-5x icon"></i>
+        <i class="fab fa-twitter-square fa-5x icon"></i>
+        <i class="fab fa-google fa-5x icon"></i>    
+    </section>
+
+    <!-- Footer -->
+    <footer class="white-section" id="footer">
+        <i class="social-icon fab fa-facebook-f icon"></i>
+        <i class="social-icon fab fa-twitter icon"></i>
+        <i class="social-icon fab fa-instagram icon"></i>
+        <i class="social-icon fas fa-envelope icon"></i>
+    
+        <p>© Copyright 2021 Python Bootcamp</p>
+    
+    </footer>
+
+
+    
+</body>
+</html>
